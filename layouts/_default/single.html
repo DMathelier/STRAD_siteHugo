@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+  {{ partial "head.html" . }}
+<body>
+<main>
+    {{ partial "header.html" . }}
+  <section>
+    <h1 itemprop="name headline">{{ .Title }}</h1>
+    {{ with .Description }}
+    <h2>{{ . }}</h2>
+    {{ end }}
+    {{ if eq .Params.toc "oui" }}
+    <h3>Sommaire</h3>
+    {{ .TableOfContents }}
+    {{ else }}
+    {{ end }}
+    {{- partial "content.html" .Content -}}
+    </section>
+    {{ partial "footer.html" . }}
+  </main>
+</body>
+</html>

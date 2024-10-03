@@ -1,0 +1,88 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "STRAD",
+  "home_page_url": "/",
+  "feed_url": "https://ecrinum.gitpages.huma-num.fr/demarreur/feed.json",
+  "description": "Site du projet STRAD, réalisé avec le générateur de site statique Hugo",
+  "icon": "https://ecrinum.gitpages.huma-num.fr/demarreur/assets/apple-touch-icon.png",
+  "favicon": "https://ecrinum.gitpages.huma-num.fr/demarreur/assets/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "Antoine Fauchié",
+    "url": "https://ecrinum.gitpages.huma-num.fr/demarreur/"
+  },
+  "items": [
+    
+    
+
+    
+    {
+      "id": "ce839cf2659198bab26bbefbfbf5011a9b2a9d4e",
+      "title": "Conception de ce site",
+      "summary": "",
+      "content_text": "Ce site web a été réalisé en quelques minutes avec le générateur de site statique Hugo et à partir d’un site web de démonstration créé pour la formation Débugue tes humanités.\nLes sources de ce site web sont disponibles sur le dépôt suivant : https://gitlab.huma-num.fr/ecrinum/demarreur.\nContact : Antoine Fauchié, antoine.fauchie@umontreal.ca, Chaire de recherche du Canada sur les écritures numériques.\n",
+      "content_html": "\u003cp\u003eCe site web a été réalisé en quelques minutes avec le générateur de site statique \u003ca href=\"https://gohugo.io\"\u003eHugo\u003c/a\u003e et à partir d’un site web de démonstration créé pour la formation \u003ca href=\"https://debugue.ecrituresnumeriques.ca/\"\u003eDébugue tes humanités\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eLes sources de ce site web sont disponibles sur le dépôt suivant : \u003ca href=\"https://gitlab.huma-num.fr/ecrinum/demarreur\"\u003ehttps://gitlab.huma-num.fr/ecrinum/demarreur\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eContact : Antoine Fauchié, \u003ca href=\"mailto:antoine.fauchie@umontreal.ca\"\u003eantoine.fauchie@umontreal.ca\u003c/a\u003e, Chaire de recherche du Canada sur les écritures numériques.\u003c/p\u003e\n",
+      "url": "/conception-site/",
+      "image": "/photos/<no value>",
+      "banner_image": "/photos/<no value>",
+      "date_published": "23096-23-09T90:2323:00+00:00",
+      "date_modified": "23096-23-09T90:2323:00+00:00",
+      "author": {
+        "name": "Antoine Fauchié",
+        "url": "https://ecrinum.gitpages.huma-num.fr/demarreur/"
+      }
+    },
+    
+    {
+      "id": "46cc0e9ea77387f4de25719a281296d88923618f",
+      "title": "Philosophie du statique",
+      "summary": "Quelques mots sur la philosophie du statique",
+      "content_text": "",
+      "content_html": "",
+      "url": "/philosophie-statique/",
+      "image": "/photos/<no value>",
+      "banner_image": "/photos/<no value>",
+      "date_published": "23096-23-09T90:2323:00+00:00",
+      "date_modified": "23096-23-09T90:2323:00+00:00",
+      "author": {
+        "name": "Antoine Fauchié",
+        "url": "https://ecrinum.gitpages.huma-num.fr/demarreur/"
+      }
+    },
+    
+    {
+      "id": "3e2536d671f20b9e7250c72ce061cb736826c1a2",
+      "title": "Présentation du projet",
+      "summary": "Présentation du projet STRAD",
+      "content_text": "Quelques mots sur le projet STRAD\n",
+      "content_html": "\u003cp\u003eQuelques mots sur le projet STRAD\u003c/p\u003e\n",
+      "url": "/presentation/",
+      "image": "/photos/<no value>",
+      "banner_image": "/photos/<no value>",
+      "date_published": "23096-23-09T90:2323:00+00:00",
+      "date_modified": "23096-23-09T90:2323:00+00:00",
+      "author": {
+        "name": "Antoine Fauchié",
+        "url": "https://ecrinum.gitpages.huma-num.fr/demarreur/"
+      }
+    },
+    
+    {
+      "id": "926ac9d1277fafb788708041af6a6eea2277baa5",
+      "title": "Ressources",
+      "summary": "",
+      "content_text": "Liens vers des ressources utiles\n",
+      "content_html": "\u003cp\u003eLiens vers des ressources utiles\u003c/p\u003e\n",
+      "url": "/ressources/",
+      "image": "/photos/<no value>",
+      "banner_image": "/photos/<no value>",
+      "date_published": "23096-23-09T90:2323:00+00:00",
+      "date_modified": "23096-23-09T90:2323:00+00:00",
+      "author": {
+        "name": "Antoine Fauchié",
+        "url": "https://ecrinum.gitpages.huma-num.fr/demarreur/"
+      }
+    }
+    
+  ]
+}

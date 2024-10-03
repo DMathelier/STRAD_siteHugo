@@ -1,0 +1,73 @@
+baseURL = "/"
+relativeURLs = true
+languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
+title = "STRAD"
+disableKinds = ["section", "categories"]
+pygmentsCodeFences = false
+pygmentsUseClasses = false
+paginate = 999
+minify = false
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2
+  [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
+
+[Author]
+  name = "Daphné Mathelier"
+  courriel = "daphne.mathelier@cnrs.fr"
+
+[params]
+  description = "Site du projet STRAD, réalisé avec le générateur de site statique Hugo"
+  description_longue = "Voilà le site du projet STRAD, réalisé avec le générateur de site statique Hugo. Il a suffit de cloner les sources de ce [site démo](https://gitlab.huma-num.fr/ecrinum/demarreur) et de modifier les contenus, les modèles et la configuration."
+  author = "Daphné Mathelier"
+  org = "MSH Mondes"
+  site_org = "https://www.mshmondes.cnrs.fr" 
+  copyright = "CC BY-SA"
+  logo = ""
+  depot = "https://gitlab.huma-num.fr/ecrinum/demarreur" #source
+  titrecourt = "Site du projet STRAD"
+
+[permalinks]
+  posts = "/:filename"
+  pages = "/:filename"
+  etude-de-cas = "/:filename"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "feed"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name       = "STRAD"
+    url        = "/"
+    weight     = -20
+
+  [[menu.main]]
+    identifier = "equipe"
+    name       = "Équipe"
+    url        = "/equipe/"
+    weight     = -10
+

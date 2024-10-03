@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>STRAD</title>
+    <description>Site du projet STRAD, réalisé avec le générateur de site statique Hugo</description>
+    <link>/</link>
+    
+    <language>fr</language>
+    <copyright>CC BY-NC-SA Antoine Fauchié</copyright>
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo - gohugo.io</generator>
+    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
+    <atom:link href="https://ecrinum.gitpages.huma-num.fr/demarreur/atom.xml" rel="self" type="application/atom+xml"/>
+    
+    <item>
+      <title>Conception de ce site</title>
+      <link>/conception-site/</link>
+      <description>&lt;p&gt;Ce site web a été réalisé en quelques minutes avec le générateur de site statique &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; et à partir d’un site web de démonstration créé pour la formation &lt;a href=&#34;https://debugue.ecrituresnumeriques.ca/&#34;&gt;Débugue tes humanités&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Les sources de ce site web sont disponibles sur le dépôt suivant : &lt;a href=&#34;https://gitlab.huma-num.fr/ecrinum/demarreur&#34;&gt;https://gitlab.huma-num.fr/ecrinum/demarreur&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contact : Antoine Fauchié, &lt;a href=&#34;mailto:antoine.fauchie@umontreal.ca&#34;&gt;antoine.fauchie@umontreal.ca&lt;/a&gt;, Chaire de recherche du Canada sur les écritures numériques.&lt;/p&gt;
+</description>
+      <author>antoine.fauchie@umontreal.ca (Antoine Fauchié)</author>
+      <guid>/conception-site/</guid>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Philosophie du statique</title>
+      <link>/philosophie-statique/</link>
+      <description></description>
+      <author>antoine.fauchie@umontreal.ca (Antoine Fauchié)</author>
+      <guid>/philosophie-statique/</guid>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Présentation du projet</title>
+      <link>/presentation/</link>
+      <description>&lt;p&gt;Quelques mots sur le projet STRAD&lt;/p&gt;
+</description>
+      <author>antoine.fauchie@umontreal.ca (Antoine Fauchié)</author>
+      <guid>/presentation/</guid>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Ressources</title>
+      <link>/ressources/</link>
+      <description>&lt;p&gt;Liens vers des ressources utiles&lt;/p&gt;
+</description>
+      <author>antoine.fauchie@umontreal.ca (Antoine Fauchié)</author>
+      <guid>/ressources/</guid>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+  </channel>
+</rss>
